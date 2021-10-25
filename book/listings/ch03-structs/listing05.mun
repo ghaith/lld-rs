@@ -1,7 +1,0 @@
-# pub struct Vector2 {
-#     x: f32,
-#     y: f32,
-# }
-pub fn vector2_new(x: f32, y: f32) -> Vector2 {
-    Vector2 { x, y }
-}

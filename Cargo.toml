@@ -1,16 +1,14 @@
 [package]
-name = "mun_lld"
-version = "110.0.0"
+name = "lld_rs"
+version = "120.0.0"
 authors = ["The Mun Team <team@mun-lang.org>"]
 edition = "2018"
-description = "Bindings for LLD used to link Mun binaries"
-documentation = "https://docs.mun-lang.org/v0.3"
+description = "Bindings for LLD"
 readme = "README.md"
-homepage = "https://mun-lang.org"
-repository = "https://github.com/mun-lang/mun"
+repository = "https://github.com/ghaith/lld-rs"
 license = "MIT OR Apache-2.0"
-keywords = ["game", "hot-reloading", "language", "mun", "scripting"]
-categories = ["game-development", "mun"]
+keywords = ["lld", "llvm"]
+categories = ["linkers", "compilers"]
 
 [dependencies]
 libc = "0.2.65"

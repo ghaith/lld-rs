@@ -13,9 +13,9 @@ struct LldInvokeResult {
 #[repr(C)]
 pub enum LldFlavor {
     Elf = 0,
-    Wasm = 1,
-    MachO = 2,
-    Coff = 3,
+    // Wasm = 1,
+    // MachO = 2,
+    // Coff = 3,
 }
 
 extern "C" {
